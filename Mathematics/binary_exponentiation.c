@@ -1,3 +1,5 @@
+#include "stdio.h"
+
 /**
 * Normal multiplication is done in O(n).
 * a^b = a * a * a * ... * a
