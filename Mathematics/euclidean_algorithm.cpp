@@ -8,6 +8,15 @@ int gcd(int a, int b) {
     return gcd(b, a % b);
 }
 
+int iterative_gcd(int a, int b) {
+    while (b) {
+        a %= b;
+        swap(a, b);
+    }
+
+    return a;
+}
+
 int main() {
     // printf("%d\n", gcd(6, 15));
     return 0;
